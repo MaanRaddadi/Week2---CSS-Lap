@@ -103,3 +103,19 @@
   left: 550px;
   top: -400px;
 }
+
+#car {
+  text-align: center;
+}
+
+#car img {
+  width: 400px;
+  box-shadow: 10px 5px 5px red;
+}
+
+#footer {
+  text-align: center;
+
+  background-color: rgb(231, 168, 101);
+  height: 10vh;
+}
