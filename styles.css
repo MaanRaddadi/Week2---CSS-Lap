@@ -109,8 +109,9 @@
 }
 
 #car img {
-  width: 400px;
-  box-shadow: 10px 5px 5px red;
+  width: 180px;
+  margin-right: 300px;
+  filter: drop-shadow(30px 10px 4px #dd4444);
 }
 
 #fot {
