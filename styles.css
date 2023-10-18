@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  background-color: rgb(238, 219, 179);
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  z-index: 5;
+}
+
+#nav-list {
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: rgb(231, 168, 101);
+  display: inline;
+  padding: 40px;
+  font-weight: bold;
+}
+
+#header {
+  padding-top: 50px;
+  background-color: rgb(231, 168, 101);
+  height: 80vh;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+
+.title-container {
+  float: right;
+  max-width: 500px;
+  text-align: right;
+  margin: 100px;
+}
+#img-1 {
+  position: relative;
+  left: 150px;
+}
+#img-2 {
+  position: absolute;
+  top: 150px;
+  left: 330px;
+}
+#squares-section {
+  text-align: center;
+  display: inline-block;
+}
+#squares-container {
+  position: relative;
+  margin-right: 250px;
+  margin-top: 50px;
+}
+.squares {
+  width: 90px;
+  height: 80px;
+  border-radius: 5px;
+  border-left: 3px black solid;
+  border-bottom: 3px black solid;
+  position: relative;
+}
+.sq1 {
+  left: 100px;
+  background-color: aqua;
+}
+.sq2 {
+  left: 190px;
+  background-color: purple;
+}
+
+.sq3 {
+  left: 280px;
+  background-color: red;
+}
+
+.sq4 {
+  left: 370px;
+  bottom: 160px;
+  background-color: green;
+}
+
+.sq5 {
+  left: 460px;
+  bottom: 320px;
+  background-color: rgb(238, 188, 94);
+}
+
+#squares-containertwo {
+  position: relative;
+  left: 550px;
+  top: -400px;
+}
